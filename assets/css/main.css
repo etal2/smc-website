@@ -3443,6 +3443,8 @@ body {
 			position: relative;
 			z-index: 1;
 			line-height: 1em;
+  			text-shadow: 4px 4px 8px rgba(0,0,0,0.3) , -4px 4px 8px rgba(0,0,0,0.3) , 4px -4px 8px rgba(0,0,0,0.3) , -4px -4px 8px rgba(0,0,0,0.3) ;
+  
 		}
 		#header h1 a span,
 		#banner h2 span {
@@ -3469,8 +3471,8 @@ body {
 		}
 
 		#banner h2:before {
-			bottom: 0.2em;
-    			right: -100px;
+			bottom: 0.3em;
+    			right: -1em;
 		}
 
 		/**	#banner h2:before, #banner h2:after {
@@ -3589,7 +3591,7 @@ body {
 			}
 
 				#banner h2 {
-					font-size: 1.25em;
+					font-size: 2em;
 				}
 
 				#banner br {

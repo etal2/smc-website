@@ -3452,14 +3452,14 @@ body {
 		}
 
 		#banner h2:before {
-			-moz-transition: width 0.85s ease;
-			-webkit-transition: width 0.85s ease;
-			-ms-transition: width 0.85s ease;
-			transition: width 0.85s ease;
-			-moz-transition-delay: 0.25s;
-			-webkit-transition-delay: 0.25s;
-			-ms-transition-delay: 0.25s;
-			transition-delay: 0.25s;
+			-moz-transition: width 0.35s ease;
+			-webkit-transition: width 0.35s ease;
+			-ms-transition: width 0.35s ease;
+			transition: width 0.35s ease;
+			-moz-transition-delay: 0.15s;
+			-webkit-transition-delay: 0.15s;
+			-ms-transition-delay: 0.15s;
+			transition-delay: 0.15s;
 			background-image: url("../../images/logo-transparent.png");
 			background-size: contain;
 			background-repeat: no-repeat;

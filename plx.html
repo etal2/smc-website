@@ -1,93 +1,422 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="he" dir="rtl">
+	<head>
+		<title>שחר אופנועים</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main-plx.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="landing">
 
-<!DOCTYPE html>
-<html>
-<head>
-	<title>שחר אופנועים</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="assets/css/main-plx.css" />
-	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-<body>
-  <div class="debug">
-    <label><input type="checkbox"> Debug</label>
-  </div>
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
 
-  <div class="parallax">
-    <div id="group1" class="parallax__group">
-      <div class="parallax__layer parallax__layer--base">
-        <section id="banner">
-		<div class="inner">
-			<h2>שחר <span>אופנועים</span></h2>
-			<p>אנדורו זה השטח שלנו</p>
-		</div>
-		<a href="#one" class="more scrolly">המשך</a>
-	</section>
-      </div>
-    </div>
-    <div id="group2" class="parallax__group">
-      <div class="parallax__layer parallax__layer--base">
-        <section class="represent">
-		<header class="major">
-			<h2>נציגויות</h2>
-			<p>kenda polisport etc</p>
-		</header>
-		<!--<ul class="icons major">
-			<li><span class="icon fa-diamond major style1"><span class="label">Lorem</span></span></li>
-			<li><span class="icon fa-heart-o major style2"><span class="label">Ipsum</span></span></li>
-			<li><span class="icon fa-code major style3"><span class="label">Dolor</span></span></li>
-		</ul>-->
-	</section>
-      </div>
-      <div class="parallax__layer parallax__layer--back">
-        <div class="title">Background Layer</div>
-      </div>
-    </div>
-    <div id="group3" class="parallax__group">
-      <div class="parallax__layer parallax__layer--fore">
-        <div class="title">Foreground Layer</div>
-      </div>
-      <div class="parallax__layer parallax__layer--base">
-        <div class="title">Base Layer</div>
-      </div>
-    </div>
-    <div id="group4" class="parallax__group">
-      <div class="parallax__layer parallax__layer--base">
-        <div class="title">Base Layer</div>
-      </div>
-      <div class="parallax__layer parallax__layer--back">
-        <div class="title">Background Layer</div>
-      </div>
-      <div class="parallax__layer parallax__layer--deep bannerbg"></div>
-    </div>
-    <div id="group5" class="parallax__group">
-      <div class="parallax__layer parallax__layer--fore">
-        <div class="title">Foreground Layer</div>
-      </div>
-      <div class="parallax__layer parallax__layer--base">
-        <div class="title">Base Layer</div>
-      </div>
-    </div>
-    <div id="group6" class="parallax__group">
-      <div class="parallax__layer parallax__layer--base">
-        <div class="title">Base Layer</div>
-      </div>
-    </div>
-    <div id="group7" class="parallax__group">
-      <div class="parallax__layer parallax__layer--base">
-        <div class="title">Base Layer</div>
-      </div>
-    </div>
-  </div>
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">שחר <span>אופנועים</span></a></h1>
+						<div class="debug">
+						    <label><input type="checkbox"> Debug</label>
+						  </div>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>תפריט</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="#">קטלוג</a></li>
+											<li><a href="index.html#one">נציגויות</a></li>
+											<li><a href="index.html#about">אודות</a></li>
+											<li><a href="elements.html">אלמנטים</a></li>
+											<li><a href="#">הרשמה</a></li>
+											<li><a href="#">כניסה</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
 
-  <script>
-    var debugInput = document.querySelector("input");
-    function updateDebugState() {
-        document.body.classList.toggle('debug-on', debugInput.checked);
-    }
-    debugInput.addEventListener("click", updateDebugState);
-    updateDebugState();
-  </script>
-</body>
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>שחר <span>אופנועים</span></h2>
+							<p>אנדורו זה השטח שלנו</p>
+						</div>
+						<a href="#one" class="more scrolly">המשך</a>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>נציגויות</h2>
+								<ul class="logos major">
+								<li><img class="logo" src="images/logos/kenda.png" alt="Kenda צמיגי"></li>
+								<li><img class="logo" src="images/logos/polisport-red.png" alt="Polisport פלסטיקה"></li>
+								<li><img class="logo" src="images/logos/twinair.png" alt="Twin Air מסנני אוויר"></li>
+								<li><img class="logo" src="images/logos/thh.png" alt="THH קסדות"></li>
+								<li><img class="logo" src="images/logos/tcx.png" alt="TCX מגפיים"></li>
+								<li><img class="logo" src="images/logos/newfren.png" alt="NewFren ברקסים וקלאצים"></li>
+								<li><img class="logo" src="images/logos/pbr.png" alt="PBR שרשראות וגלגלי שיניים"></li>
+								<li><img class="logo" src="images/logos/czretezy.png" alt="CZ שרשראות וגלגלי שיניים"></li>
+							</ul>
+							</header>
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper alt style2 plx">
+						<section class="spotlight plx-group">
+							<div class="plx-layer plx-layer-back plx-bg1"></div>
+							<div class="plx-layer plx-layer-fore">
+								<div class="image"></div>
+								<div class="content-bg-wrapper">
+								
+									<div class="content-wrapper">
+									
+										<div class="content">
+											<h2>אנדורו</h2>
+											<p>שחר אופנועים מתמחה גם באופנועי OFF ROAD. החברה פועלת רבות למען תחרויות האינדורו - בתמיכה בהרשמה ואף במתן פרסים וחסויות.
+			</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="spotlight plx-group">
+							<div class="plx-layer plx-layer-back plx-bg2"></div>
+							<div class="plx-layer plx-layer-fore">
+								<div class="image"></div>
+								<div class="content-bg-wrapper">
+									<div class="content-wrapper">
+								
+										<div class="content">
+											<h2>החנות</h2>
+											<p>בחנות המשתרעת על שטח של 400 מ"ר כולל מחסנים, הממוקמת ברחוב שוקן 15 בתל אביב ניתן למצוא אביזרים במחירי מבצע ומוצרים בלעדיים לחנות.
+			</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="spotlight plx-group">
+							<div class="plx-layer plx-layer-back plx-bg3"></div>
+							<div class="plx-layer plx-layer-fore">
+								<div class="image"></div>
+								<div class="content-bg-wrapper">
+							
+									<div class="content-wrapper">
+									
+										<div class="content">
+											<h2>צמיגים</h2>
+											<p>החברה רכשה בתחום הצמיגים נסיון רב והיא מייבאת צמיגים איכותיים לאופנועים, קטנועים, טרקטורונים, רכבים חקלאיים קטנים, רכבים תעשייתיים ועוד...</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Three -->
+<!--
+					<section id="three" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Accumsan mus tortor nunc aliquet</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
+								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+							</header>
+							<ul class="features">
+								<li class="icon fa-paper-plane-o">
+									<h3>Arcu accumsan</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-laptop">
+									<h3>Ac Augue Eget</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-code">
+									<h3>Mus Scelerisque</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-headphones">
+									<h3>Mauris Imperdiet</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-heart-o">
+									<h3>Aenean Primis</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-flag-o">
+									<h3>Tortor Ut</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+							</ul>
+						</div>
+					</section>
+-->
+				<!-- CTA -->
+					<section id="about" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>אודותינו</h2>
+								<p>חברת שחר אופנועים בע"מ, הינה אחת החברות המובילות בישראל בתחום היבוא והשיווק של חלקי חילוף ואביזרים לאופנועים, קטנועים וטרקטורונים. החברה מייבאת את מוצריה ממיטבה החברות באירופה, ארה"ב והמזרח הרחוק. שחר אופנועים משווקת את מוצריה; חלקי חילוף, אביזרים, צמיגים לאופנועים בכל חלקי הארץ באמצעות חנויות, מוסכים וכן ישירות כי המומחיות שלנו - אופנועי שטח.</p>
+							</header>
+						</div>
+					</section>
+					<section id="cta" class="wrapper style4">
+						<div class="inner">
+							<header>
+								<div id="map" style="width:90%;height:300px;"></div>
+							</header>
+							<ul class="actions vertical">
+								<h2>צור קשר</h2>
+								<li>כתובתנו:</li>
+								<li>שוקן 15 תל אביב</li>
+								<li><a href="tel:03-6827755" class="icon fa-phone"><span class="label">טלפון</span> 03-6827755</a></li>
+								<li><a href="mailto:shahar@smc.co.il" class="icon fa-envelope-o"><span class="label">דואר אלקטרוני</span>shahar@smc.co.il</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; שחר אופנועים</li><li>טמפלט: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script>
+				function initMap() {
+				var smc = {lat: 32.05296, lng: 34.772391};
+				var darkMapStyle = [{
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#212121"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      {
+        "color": "#212121"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.country",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#9e9e9e"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.land_parcel",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.locality",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#bdbdbd"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#181818"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#616161"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      {
+        "color": "#1b1b1b"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "elementType": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#2c2c2c"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#8a8a8a"
+      }
+    ]
+  },
+  {
+    "featureType": "road.arterial",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#373737"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#3c3c3c"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway.controlled_access",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#4e4e4e"
+      }
+    ]
+  },
+  {
+    "featureType": "road.local",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#616161"
+      }
+    ]
+  },
+  {
+    "featureType": "transit",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#000000"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#3d3d3d"
+      }
+    ]
+  }];
+				var darkMapType = new google.maps.StyledMapType(darkMapStyle,{name: 'Dark Map'});
+				var map = new google.maps.Map(document.getElementById('map'), {
+				  zoom: 16,
+				  center: smc,
+				  mapTypeControlOptions: {
+					mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain', 'styled_map']
+				  }
+				});
+				map.mapTypes.set('styled_map', darkMapType);
+        			map.setMapTypeId('styled_map');
+				var marker = new google.maps.Marker({
+				  position: smc,
+				  map: map,
+				  title: "שחר אופנועים\nשוקן 15\nתל אביב"
+				});
+				}
+			</script>
+			<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQEEu2dOvgMdvBjueDg1dctWdS--3dS7s&callback=initMap"></script>
+			<script>
+			    var debugInput = document.querySelector("input");
+			    function updateDebugState() {
+				document.body.classList.toggle('debug-on', debugInput.checked);
+			    }
+			    debugInput.addEventListener("click", updateDebugState);
+			    updateDebugState();
+		  	</script>
+
+	</body>
 </html>

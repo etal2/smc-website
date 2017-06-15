@@ -2754,9 +2754,9 @@ body {
 				border-color: rgba(0, 0, 0, 0.125);
 			}
 
-				.wrapper.style1 table tbody tr:nth-child(2n + 1) {
-					background-color: rgba(255, 255, 255, 0.075);
-				}
+			.wrapper.style1 table tbody tr:nth-child(2n + 1) {
+				background-color: rgba(255, 255, 255, 0.075);
+			}
 
 			.wrapper.style1 table th {
 				color: #ffffff;
@@ -3651,7 +3651,7 @@ body {
 			-webkit-order: 1;
 			-ms-order: 1;
 			order: 1;
-			padding-right: 3em;
+			padding-left: 3em;
 			width: 70%;
 		}
 
@@ -3670,21 +3670,22 @@ body {
 		@media screen and (max-width: 980px) {
 
 			#cta .inner {
-				display: block;
+				/*display: block;*/
+				flex-direction: column-reverse;
 				text-align: center;
 			}
 
-				#cta .inner header {
-					padding-right: 0;
-					width: 100%;
-				}
+			#cta .inner header {
+				padding-left: 0;
+				width: 100%;
+			}
 
-				#cta .inner .actions {
-					margin-left: auto;
-					margin-right: auto;
-					max-width: 20em;
-					width: 100%;
-				}
+			#cta .inner .actions {
+				margin-left: auto;
+				margin-right: auto;
+				max-width: 20em;
+				width: 100%;
+			}
 
 		}
 
@@ -3878,6 +3879,7 @@ body {
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
+
 	}
 
 	body.is-mobile.landing #footer {
@@ -3906,3 +3908,24 @@ li img.logo:hover{
 	-webkit-filter: drop-shadow(0px 5px 5px #222);
     	filter:         drop-shadow(0px 5px 5px #222); 
 }
+
+header.alt .phone {
+	display: block;
+}
+header .phone {
+	display: block;
+}
+@media screen and (max-width: 736px) {
+	header .phone {
+		display: none;
+	}
+}
+.phone {
+	text-align: center;
+}
+#map {
+	width:100%;
+	height:300px;
+	height:40vh;
+}
+

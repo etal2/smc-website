@@ -3416,7 +3416,7 @@ body {
 		-ms-justify-content: center;
 		justify-content: center;
 		cursor: default;
-		height: 100vh;
+		height: 95vh;
 		min-height: 35em;
 		overflow: hidden;
 		position: relative;
@@ -3590,17 +3590,22 @@ body {
 				min-height: 0;
 			}
 
-				#banner h2 {
-					font-size: 2em;
-				}
+			#banner h2 {
+				font-size: 2em;
+			}
 
-				#banner br {
-					display: none;
-				}
+			#banner br {
+				display: none;
+			}
 
-				#banner .more {
-					display: none;
-				}
+			#banner .more {
+				display: none;
+			}
+
+			#banner p {
+			    font-size: 1.25em;
+			    letter-spacing: 0.1em;
+			}
 
 		}
 
@@ -3875,3 +3880,23 @@ body {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+/* logos */
+
+ul.logos {
+	list-style: none;
+}
+
+ul.logos li {
+	display: inline-block;
+	padding: 0 1em 0 0;
+	vertical-align: middle;	
+}
+ul.logos li:last-child {
+	padding-right: 0 !important;
+}
+li img.logo{
+	max-height: 8em;
+	max-width: 10em;
+}
+
